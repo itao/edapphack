@@ -1,71 +1,207 @@
-<!doctype html>
-<html>
-  <head>
+<!DOCTYPE html>
+<!-- saved from url=(0031) -->
+<html lang="en" class="csstransforms csstransforms3d csstransitions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Edapphack by itao</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EdAppHack</title>
+    <link href="css/main.css" rel="stylesheet">
+    <link href="font/css/font-awesome.min.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="http://basehold.it/26"> -->
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
-  </head>
+  <style type="text/css"></style></head>
+
   <body>
-    <div class="wrapper">
-      <header>
-        <h1>Edapphack</h1>
-        <p>Landing site for MaRS + TDSB EdAppHack event</p>
+    <div id="page">
 
-        <p class="view"><a href="https://github.com/itao/edapphack">View the Project on GitHub <small>itao/edapphack</small></a></p>
+      <header class="site-header"></header>
 
+      <main class="site-main">
 
-        <ul>
-          <li><a href="https://github.com/itao/edapphack/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/itao/edapphack/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/itao/edapphack">View On <strong>GitHub</strong></a></li>
+        <section class="section section-inverse section-hero loaded">
+          <div class="container">
+            <header class="section-header">
+              <div class="site-logo"><img src="imgs/logo.png"></div>
+              <h1 class="section-title countdown-container">
+                {{ Count down timer here }}
+              </h1>
+              <h2 class="section-title">
+                <br>
+                <small style="color: #f6f6f6;">{{ need background image }}</small>
+              </h2>
+            </header>
+            <div class="section-content">
+              <div class="cta row">
+                <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2">
+                  <a href="#signup" class="btn btn-lg btn-block btn-success btn-rounded smooth-scroll">Sign up now!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section section-portfolio loaded">
+          <div class="container">
+            <header class="section-header">
+              <div class="row">
+                <div class="col-md-5 col-md-offset-1">
+                  <h2>{{ suggestion: logos for edapphack + tdsb + mars}}</h2>
+                </div>
+                <div class="col-md-5">
+                  <h2 class="section-title" style="text-align: left; padding-bottom: 15px;">
+                    <span style="color: white; visibility: hidden;">+ </span>
+                    Students
+                    <br>
+                    <span style="color: white; visibility: hidden;">+ </span>
+                    Learning Needs
+                    <br>
+                    <span style="color: white; visibility: hidden;">+ </span>
+                    Teachers
+                    <br>
+                    <span style="color: white; visibility: hidden;">+ </span>
+                    Developers
+                    <br>
+                    + 1 Weekend
+                  </h2>
+                  <h2 class="section-title" style="text-align: left; padding-top: 15px; border-top: 2px #2c3e50 solid;">
+                    <span style="color: white; visibility: none;">+ </span>
+                    <span style="border-top: 1px white solid;">Hacked Apps</span>
+                  </h2>
+                </div>
+              </div>
+            </header>
+          </div>
+        </section>
+
+        <section id="about" class="section section-inverse section-showcase loaded">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 col-md-offset-1 col-md-5 col-md-offset-1 col-md-push-6">
+                <header class="section-header" style="margin-top: -30px;">
+                  <h2 class="section-title">About</h2>
+                </header>
+                <div class="section-content">
+                  <p style="color: #f6f6f6;">
+                    The <a href="https://twitter.com/search?q=%23edapphack">#EdAppHack</a>
+                    is a 2-day experiential and inquiry-based learning opportunity that unites Students, Teachers and App Developers through the theme of STEM.
+                    Based on the Hackathon Model, the goal of the weekend event is to empower Student Voice in the creation of apps that support learning needs identified by Student participants.
+                    Teachers and App Developers will support each other and collaborate in teams with Students as they imagine, prototype and pitch their app ideas!
+                  </p>
+                  <div class="row">
+                    <div class="col-md-6 col-md-offset-0 col-sm-3 col-sm-offset-3 col-xs-6">
+                      <!--
+                      <img src="stockshot-8.png">
+                      -->
+                      <h3>October 25-26, 2014</h3>
+                      <p style="color: #f6f6f6;">{{ time? }}</p>
+                    </div>
+                    <div class="col-md-6 col-sm-3 col-xs-6">
+                      <!--
+                      <img src="stockshot-3.png">
+                      -->
+                      <h3>MaRS Discovery District</h3>
+                      <p style="color: #f6f6f6;">101 College St. Toronto Ontario</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 col-lg-pull-5 col-md-pull-6">
+                <a href="https://www.google.com/maps/place/MaRS+Discovery+District/@43.6607277,-79.388926,15z/data=!4m2!3m1!1s0x882b34b7ccd8ba1f:0x7e6f7af0cc4e65f3">
+                  <img src="imgs/map.png" class="showcase-bg">
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="people" class="section section-team loaded">
+          <div class="container">
+            <header class="section-header">
+              <h2 class="section-title">Facilitators</h2>
+              <div class="section-description">The #EdAppHack is driven by the vision of 2 Toronto District School Board (TDSB) Teacher-Leaders, Joseph Romano, OCT and Brandon Zoras, OCT.
+              Together as Facilitators, Joseph and Brandon have designed the #EdAppHack to centre around the learning needs of Students, supported by technology, just as they do in their classrooms. </div>
+            </header>
+            <div class="section-content">
+              <div class="row">
+                <div class="col-sm-4">
+                  <img src="imgs/romano.jpeg">
+                  <h3>Joseph Romano</h3>
+                  <p>Elementary Panel</p>
+                  <ul class="social-links">
+                    <li class="facebook"><a href="#"><i class="fa fa-envelope"></i></a></li>
+                    <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li class="google-plus"><a href="#"><i class="fa fa-link"></i></a></li>
+                  </ul>
+                </div>
+                <div class="col-sm-4">
+                  <img src="imgs/zoras.jpeg">
+                  <h3>Brandon Zoras</h3>
+                  <p>Secondary Panel</p>
+                  <ul class="social-links">
+                    <li class="facebook"><a href="#"><i class="fa fa-envelope"></i></a></li>
+                    <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li class="google-plus"><a href="#"><i class="fa fa-link"></i></a></li>
+                  </ul>
+                </div>
+                <div class="col-sm-4">
+                  <img src="imgs/wilson.jpeg">
+                  <h3>Joseph Wilson</h3>
+                  <p>MaRS Senior Strategist</p>
+                  <ul class="social-links">
+                    <li class="facebook"><a href="#"><i class="fa fa-envelope"></i></a></li>
+                    <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li class="google-plus"><a href="#"><i class="fa fa-link"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="signup" class="section section-inverse section-contact">
+          <div class="container">
+            <header class="section-header">
+              <h2 class="section-title">Sign up now!</h2>
+              <p class="section-description" style="color: #f6f6f6;">{{ Description of what it means to be signed up }}</p>
+            </header>
+            <div class="section-content">
+              <center>
+                <h1 style="color: #f6f6f6;">{{ sign up form here }}</h1>
+              </center>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="container">
+        <a href="#page" class="back-to-top smooth-scroll"><i class="fa fa-chevron-up"></i></a>
+        <ul class="social-links">
+          <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+          <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+          <li class="google-plus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
         </ul>
-      </header>
-      <section>
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/itao">itao</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+        </div>
       </footer>
     </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
-  </body>
-</html>
+
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+    <script type="text/javascript" src="js/jquery.singlePageNav.min.js"></script>
+    <script type="text/javascript" src="js/jquery.countdown.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+    <script>
+      $(function() {
+        $('.countdown-container').countdown({
+            date: "October 25, 2014 09:00:00"
+        });
+    });
+    </script>
