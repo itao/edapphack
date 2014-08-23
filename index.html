@@ -168,8 +168,14 @@
           <div class="container">
             <div class="row">
               <div class="col-md-3 col-md-offset-2">
+                <a href="http://www.orion.on.ca/" target="_blank">
+                  <img src="imgs/orion-gray.png" width="100%" onmouseover="hover(this);" onmouseout="unhover(this);">
+                </a>
               </div>
               <div class="col-md-3 col-md-offset-2">
+                <a href="http://sesame.education/" target="_blank">
+                  <img src="imgs/sesame-gray.png" width="100%" onmouseover="hover(this);" onmouseout="unhover(this);">
+                </a>
               </div>
             </div>
           </div>
@@ -214,5 +220,22 @@
         $('.countdown-container').countdown({
             date: "October 25, 2014 09:00:00"
         });
-    });
+      });
+
+      function hover(element) {
+        var s = element.getAttribute('src');
+        if(s.search('imgs/orion-gray.png') != -1) {
+          element.setAttribute('src', 'imgs/orion.png');
+        } else if(s.search('imgs/sesame-gray.png') != -1) {
+          element.setAttribute('src', 'imgs/sesame.png');
+        }
+      }
+      function unhover(element) {
+        var s = element.getAttribute('src');
+        if(s && s.search('imgs/orion.png') != -1) {
+          element.setAttribute('src', 'imgs/orion-gray.png');
+        } else if(s.search('imgs/sesame.png') != -1) {
+          element.setAttribute('src', 'imgs/sesame-gray.png');
+        }
+      }
     </script>

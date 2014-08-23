@@ -6883,11 +6883,6 @@ h3 {
 }
 }
 
-.section-sponsors {
-    padding: 50px;
-    background-color: #EDEFED;
-}
-
 .section-portfolio {
     padding-bottom:78px
 }
@@ -7364,4 +7359,9 @@ h3 {
 
 #map {
     height: 500px;
+}
+
+.section-sponsors {
+    padding: 50px;
+    background-color: #EDEFED;
 }
