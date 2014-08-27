@@ -93,7 +93,15 @@
                 </header>
                 <div class="section-content" style="margin-bottom: -25px;">
                   <p style="color: #f6f6f6;">
-                    Supported by the Toronto District School Board (TDSB) and MaRS Discovery District (MaRS DD), #EdAppHack is a 2-day Education-focused Hackathon that aims to unite TDSB Students, TDSB Teachers and Community App Developers through the theme of STEM. As an experiential and inquiry-based learning opportunity based on the Hackathon Model, the goal of the weekend event is to empower Student Voice in the creation of original Apps that support learning needs identified by Student participants. Teachers and App Developers will support each other and collaborate in teams with Students as they imagine, prototype, build and pitch their App ideas!
+                    Supported by the
+                    <a href="http://www.tdsb.on.ca/" target="_blank">Toronto District School Board (TDSB)</a>
+                    and <a href="http://www.marsdd.com/" target="_blank">MaRS Discovery District (MaRS DD)</a>,
+                    <a href="https://twitter.com/search?q=%23edapphack" target="_blank">#EdAppHack</a>
+                    is a 2-day Education-focused Hackathon that aims to unite TDSB Students,
+                    TDSB Teachers and Community App Developers through the theme of
+                    <a href="http://www.tdsb.on.ca/AboutUs/DirectorofEducation/YearsofAction/StudentAchievement.aspx" target="_blank">STEM</a>.
+                    As an experiential and inquiry-based learning opportunity based on the
+                    <a href="https://www.youtube.com/watch?v=nMz-JLg8bWQ" target="_blank">Hackathon Model</a>, the goal of the weekend event is to empower Student Voice in the creation of original Apps that support learning needs identified by Student participants. Teachers and App Developers will support each other and collaborate in teams with Students as they imagine, prototype, build and pitch their App ideas!
                   </p>
                   <hr style="margin-bottom: 0px;">
                   <div class="row">
@@ -130,6 +138,8 @@
               <h2 class="section-title">Facilitators</h2>
               <div class="section-description">
                 <a href="https://twitter.com/search?q=%23edapphack" target="_blank">#EdAppHack</a> is driven by the vision of 2 TDSB Teacher-Leaders, <b>Joseph Romano</b>, OCT and <b>Brandon Zoras</b>, OCT, supported by MaRS DD Senior Education Technology Strategist Joseph Wilson. Together as Facilitators, Joseph Romano and Brandon Zoras have designed the #EdAppHack event to centre around and support the learning needs of Students, fuelled by technology-rich and STEM-focused pedagogy, just as they do as leaders in the TDSB.
+                <br><br>
+                For more information and details, please feel free to connect with the Facilitators via email, Twitter and LinkedIn.
               </div>
             </header>
             <div class="section-content">
@@ -187,14 +197,41 @@
               <h2 class="section-title">Sponsors & Partners</h2>
             </header>
             <div class="row">
-              <div class="col-md-3 col-md-offset-2">
+              <div class="col-md-2 col-md-offset-2">
                 <a href="http://www.orion.on.ca/" target="_blank">
                   <img src="imgs/orion-gray.png" width="100%" onmouseover="hover(this);" onmouseout="unhover(this);">
                 </a>
               </div>
-              <div class="col-md-3 col-md-offset-2">
+              <div class="col-md-2">
                 <a href="http://sesame.education/" target="_blank">
                   <img src="imgs/sesame-gray.png" width="100%" onmouseover="hover(this);" onmouseout="unhover(this);">
+                </a>
+              </div>
+              <div class="col-md-2">
+                <a href="#" target="_blank">
+                  <img src="imgs/mars-gray.png" width="100%" onmouseover="hover(this);" onmouseout="unhover(this);">
+                </a>
+              </div>
+              <div class="col-md-2">
+                <a href="#" target="_blank">
+                  <img src="imgs/oct-gray.png" width="100%" onmouseover="hover(this);" onmouseout="unhover(this);">
+                </a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-2 col-md-offset-3">
+                <a href="#" target="_blank">
+                  <img src="imgs/tdsb-gray.png" width="100%" onmouseover="hover(this);" onmouseout="unhover(this);">
+                </a>
+              </div>
+              <div class="col-md-2">
+                <a href="#" target="_blank">
+                  <img src="imgs/classpace-gray.png" width="100%" onmouseover="hover(this);" onmouseout="unhover(this);">
+                </a>
+              </div>
+              <div class="col-md-2">
+                <a href="#" target="_blank">
+                  <img src="imgs/humber-gray.png" width="100%" onmouseover="hover(this);" onmouseout="unhover(this);">
                 </a>
               </div>
             </div>
@@ -219,7 +256,7 @@
                   <p>During the weeks leading up to <a href="https://twitter.com/search?q=%23edapphack" target="_blank">#EdAppHack</a>, you will receive additional information, updates and resources via the email address you have provided.</p>
                 </div>
                 <div class="col-md-5 col-md-offset-1">
-                  <h1 style="color: #f6f6f6;">{{ Eventbrite }}</h1>
+                  <h1 style="color: #f6f6f6;">Eventbrite coming soon.<h1>
                 </div>
               </div>
             </div>
@@ -255,18 +292,10 @@
 
       function hover(element) {
         var s = element.getAttribute('src');
-        if(s.search('imgs/orion-gray.png') != -1) {
-          element.setAttribute('src', 'imgs/orion.png');
-        } else if(s.search('imgs/sesame-gray.png') != -1) {
-          element.setAttribute('src', 'imgs/sesame.png');
-        }
+        element.setAttribute('src', s.replace('-gray.png', '.png'));
       }
       function unhover(element) {
         var s = element.getAttribute('src');
-        if(s && s.search('imgs/orion.png') != -1) {
-          element.setAttribute('src', 'imgs/orion-gray.png');
-        } else if(s.search('imgs/sesame.png') != -1) {
-          element.setAttribute('src', 'imgs/sesame-gray.png');
-        }
+        element.setAttribute('src', s.replace('.png', '-gray.png'));
       }
     </script>
